@@ -1,0 +1,218 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Appetizer</title>
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.9.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-element-bundle.min.js"></script>
+
+    <style>
+      html,
+      body {
+        position: relative;
+        height: 100%;
+        margin: 0;
+        padding: 0;
+      }
+
+      body {
+        background: #000;
+        font-family:
+          Helvetica Neue,
+          Helvetica,
+          Arial,
+          sans-serif;
+        font-size: 14px;
+        color: #fff;
+      }
+
+      swiper-container {
+        width: 100%;
+        height: 100vh;
+      }
+      swiper-slide {
+        transform: scale(1.08);
+        opacity: 0;
+        transition:
+          transform 1.2s ease,
+          opacity 1.2s ease;
+      }
+
+      swiper-slide.swiper-slide-active {
+        transform: scale(1);
+        opacity: 1;
+      }
+    </style>
+  </head>
+
+  <body>
+    <swiper-container
+      class="mySwiper"
+      effect="fade"
+      fade-effect-cross-fade="true"
+      pagination="true"
+      pagination-clickable="true"
+      navigation="true"
+      autoplay-delay="4000"
+      autoplay-disable-on-interaction="false"
+    >
+      <swiper-slide
+        class="bg-[url('https://themewagon.github.io/appetizer/images/bg_3.jpg')] bg-cover bg-center"
+      >
+      </swiper-slide>
+
+      <swiper-slide
+        class="bg-[url('https://themewagon.github.io/appetizer/images/bg_1.jpg')] bg-cover bg-center"
+      >
+      </swiper-slide>
+
+      <swiper-slide
+        class="bg-[url('https://themewagon.github.io/appetizer/images/bg_2.jpg')] bg-cover bg-center"
+      >
+      </swiper-slide>
+    </swiper-container>
+
+    <div class="absolute inset-0 bg-black/40 z-10"></div>
+
+    <div class="absolute top-0 left-0 w-full z-20">
+      <header
+        class="hidden lg:flex font-semibold text-[15.5px] bg-black/30 justify-evenly items-center py-2 text-white/80"
+      >
+        <h3>
+          <i class="ri-phone-fill text-lg"></i>
+          + 1235 2355 98
+        </h3>
+
+        <h3 class="flex justify-center items-center">
+          <i class="ri-mail-fill text-lg mr-1"></i>
+          Youremail@email.com
+        </h3>
+
+        <h2>Open hours: Monday - Sunday 8:00AM - 9:00PM</h2>
+      </header>
+
+      <nav
+        class="sticky flex gap-84 text-white justify-evenly items-center px-5 lg:px-16 py-4"
+      >
+        <h1 class="text-3xl font-extrabold font-sans">Appetizer</h1>
+
+        <ul
+          class="hidden lg:flex font-semibold justify-center items-center gap-9"
+        >
+          <li>Home</li>
+
+          <li>About</li>
+
+          <li>Menu</li>
+
+          <li>Blog</li>
+
+          <li>Contact</li>
+
+          <li class="bg-yellow-500 flex items-center py-4 px-5 rounded-md">
+            Book a table
+          </li>
+        </ul>
+
+        <h1 class="flex lg:hidden font-semibold text-xl">
+          <i class="ri-menu-line mr-1 flex items-center"></i>
+          MENU
+        </h1>
+      </nav>
+    </div>
+    <section
+      class="relative w-full min-h-screen bg-white text-black overflow-hidden"
+    >
+      <div
+        class="absolute left-0 bottom-0 w-full h-[48%] bg-[url('https://themewagon.github.io/appetizer/images/bg_4.jpg')] bg-cover bg-center"
+      ></div>
+
+      <div class="relative z-10 pt-20 lg:pt-24 text-center px-5">
+        <div class="relative inline-block">
+          <h2 class="text-4xl lg:text-6xl font-extrabold">
+            Appetizer Restaurant
+          </h2>
+        </div>
+
+        <p class="max-w-5xl mx-auto mt-10 text-gray-500 text-lg leading-9">
+          On her way she met a copy. The copy warned the Little Blind Text, that
+          where it came from it would have been rewritten a thousand times and
+          everything that was left from its origin would be the word "and" and
+          the Little Blind Text should turn around and return to its own, safe
+          country. A small river named Duden flows by their place and supplies
+          it with the necessary regelialia. It is a paradisematic country, in
+          which roasted parts of sentences fly into your mouth.
+        </p>
+      </div>
+
+      <div class="relative z-20 flex justify-center mt-16 lg:mt-20">
+        <div
+          class="w-28 h-28 rounded-full bg-orange-400 flex items-center justify-center shadow-xl"
+        >
+          <i class="ri-play-fill text-white text-4xl ml-1"></i>
+        </div>
+      </div>
+
+      <div
+        class="relative z-10 grid grid-cols-2 lg:grid-cols-4 text-center mt-16 lg:mt-20 pb-20"
+      >
+        <div class="py-5">
+          <h3 class="text-5xl font-semibold">18</h3>
+          <p class="text-lg mt-5">Years experienced</p>
+        </div>
+
+        <div class="py-5">
+          <h3 class="text-5xl font-semibold">15,000</h3>
+          <p class="text-lg mt-5">Happy Customers</p>
+        </div>
+
+        <div class="py-5">
+          <h3 class="text-5xl font-semibold">100</h3>
+          <p class="text-lg mt-5">Menus</p>
+        </div>
+
+        <div class="py-5">
+          <h3 class="text-5xl font-semibold">20</h3>
+          <p class="text-lg mt-5">Staffs</p>
+        </div>
+      </div>
+    </section>
+    <section class="py-20 px-25 bg-white text-black text-center">
+      <h1 class="text-[52px] font-extrabold">Catering Services</h1>
+      <div
+        class="grid grid-cols-1 lg:grid-cols-3 mt-18 gap-10 flex justify-center items-center"
+      >
+        <div class="text-center">
+          <h1 class="text-2xl font-sans">Birthday Party</h1>
+          <p class="text-lg">
+            Even the all-powerful Pointing has no control about the blind texts
+            it is an almost unorthographic.
+          </p>
+        </div>
+        <div class="">
+          <h1>Business Meetings</h1>
+          <p>
+            Even the all-powerful Pointing has no control about the blind texts
+            it is an almost unorthographic.
+          </p>
+        </div>
+        <div class="">
+          <h1>Wedding Party</h1>
+          <p>
+            Even the all-powerful Pointing has no control about the blind texts
+            it is an almost unorthographic.
+          </p>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
