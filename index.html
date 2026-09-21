@@ -16,6 +16,7 @@
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-element-bundle.min.js"></script>
 
     <style>
+      
       html,
       body {
         position: relative;
@@ -118,6 +119,7 @@
             >
               Order Now
             </button>
+
             <button class="border-1 border-white-50 text-white py-3 px-5">
               View Menu
             </button>
@@ -150,7 +152,13 @@
       >
         <h1 class="text-3xl font-extrabold font-sans">Appetizer</h1>
 
+        <h1  class="menu flex lg:hidden font-semibold text-xl">
+          <i class="ri-menu-line mr-1 flex items-center"></i>
+          MENU
+        </h1>
+
         <ul
+          id="lo"
           class="hidden lg:flex font-semibold justify-center items-center gap-9"
         >
           <li>Home</li>
@@ -168,10 +176,6 @@
           </li>
         </ul>
 
-        <h1 class="flex lg:hidden font-semibold text-xl">
-          <i class="ri-menu-line mr-1 flex items-center"></i>
-          MENU
-        </h1>
       </nav>
     </div>
     <section
@@ -582,7 +586,7 @@
         Our master chefs
     </h1>
 
-    <div class="grid grid-cols-1 lg:grid-cols-4 gap-19 text-start items-center lg:px-30">
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-19 text-start items-center lg:px-30">
 
         <div class="flex flex-col justify-center gap-3  items-center w-full lg:w-62">
 
@@ -686,11 +690,87 @@
 
 </section>
 <section class="grid grid-cols-1 md:grid-cols-5">
-  <img src="https://themewagon.github.io/appetizer/images/insta-1.jpg" alt=" " class="h-90 lg:h-80 bg-cover overflow-hidden">
-  <img src="	https://themewagon.github.io/appetizer/images/insta-2.jpg" alt=""  class="h-90 lg:h-80  bg-cover overflow-hidden">
-  <img src="https://themewagon.github.io/appetizer/images/insta-3.jpg" alt=""  class="h-90 lg:h-80  bg-cover overflow-hidden">
-  <img src="https://themewagon.github.io/appetizer/images/insta-4.jpg" alt=""  class="h-90 lg:h-80  bg-cover overflow-hidden">
-  <img src="https://themewagon.github.io/appetizer/images/insta-5.jpg" alt=""  class="h-90 lg:h-80  bg-cover overflow-hidden">
+  <img src="https://themewagon.github.io/appetizer/images/insta-1.jpg" alt=" " class="h-90 sm:w-full lg:h-80 bg-cover overflow-hidden">
+  <img src="	https://themewagon.github.io/appetizer/images/insta-2.jpg" alt=""  class="h-90 sm:w-full lg:h-80  bg-cover overflow-hidden">
+  <img src="https://themewagon.github.io/appetizer/images/insta-3.jpg" alt=""  class="h-90 sm:w-full lg:h-80  bg-cover overflow-hidden">
+  <img src="https://themewagon.github.io/appetizer/images/insta-4.jpg" alt=""  class="h-90 sm:w-full lg:h-80  bg-cover overflow-hidden">
+  <img src="https://themewagon.github.io/appetizer/images/insta-5.jpg" alt=""  class="h-90 sm:w-full lg:h-80  bg-cover overflow-hidden">
 </section>
+<section class="flex grid grid-cols-1 lg:grid-cols-4 justify-evenly items-start gap-10  bg-black text-white justify-center text-center py-8 sm:px-29 md:py-20 px-5">
+<div class=" flex-col lg:flex justify-evenly gap-4 text-start">
+
+    <h1 class="text-2xl font-extrabold mb-7">
+      Appetizer
+    </h1>
+  <p class="text-base text-white/70">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+  <ul class="flex gap-4">
+  <li><i class="ri-twitter-fill text-xl bg-slate-400 p-2 rounded-full"></i></li>
+  <li><i class="ri-facebook-fill text-xl bg-slate-400 p-2 rounded-full"></i></li>
+  <li><i class="ri-instagram-fill text-xl bg-slate-400 p-2 rounded-full"></i></li></ul>
+</div>
+<div class="flex-col">
+  <h1 class="text-2xl font-extrabold mb-3">Open Hours</h1>
+  <div class="flex flex-col gap-1 text-base text-white/65 mt-10">
+    <div class="flex justify-between">
+      <h2>Monday</h2>
+      <h2>9:00 - 24:00</h2>
+    </div>
+    <div class="flex justify-between">
+      <h2>tuesday</h2>
+      <h2>9:00 - 24:00</h2>
+    </div>
+    <div class="flex justify-between">
+      <h2>wednesday</h2>
+      <h2>9:00 - 24:00</h2>
+    </div>
+    <div class="flex justify-between">
+      <h2>Thursday</h2>
+      <h2>9:00 - 24:00</h2>
+    </div>
+    <div class="flex justify-between">
+      <h2>Friday</h2>
+      <h2>9:00 - 24:00</h2>
+    </div>
+    <div class="flex justify-between">
+      <h2>Saturday</h2>
+      <h2>9:00 - 24:00</h2>
+    </div>
+    <div class="flex justify-between">
+      <h2>Sunday</h2>
+      <h2>9:00 - 24:00</h2>
+    </div>
+  </div>
+
+</div>
+<div class="flex flex-col text-start">
+  <h1 class="text-2xl font-extrabold mb-10">Newsletter</h1>
+  <div class="flex flex-col gap-2 text-[15px] text-white/65 mb-3 ">
+    <p class="mb-5">Far far away, behind the word mountains, far from the countries.</p>
+    <input type="text" placeholder="Enter email address" class="px-3 bg-slate-400 text-center py-4 rounded-md text-black">
+    <button class="bg-orange-400 text-white px-3 py-4 rounded-md mt-2">Subscribe</button>
+</div>
+</div>
+<div class="flex flex-col text-start">
+  <h1 class="text-2xl font-extrabold mb-3">Instagram</h1>
+  <div class="flex grid grid-cols-3 mt-7">
+        <img src="https://themewagon.github.io/appetizer/images/insta-1.jpg" alt="" class="lg:h-25 sm:w-25 h-40  bg-cover overflow-hidden">
+    <img src="https://themewagon.github.io/appetizer/images/insta-2.jpg" alt="" class="lg:h-25  sm:w-25 h-40  bg-cover overflow-hidden">
+    <img src="	https://themewagon.github.io/appetizer/images/insta-3.jpg" alt="" class="lg:h-25 sm:w-25 h-40  bg-cover overflow-hidden">
+     <img src="https://themewagon.github.io/appetizer/images/insta-4.jpg" alt="" class="lg:h-25 sm:w-25 h-40  bg-cover overflow-hidden">
+    <img src="	https://themewagon.github.io/appetizer/images/insta-5.jpg" alt="" class="lg:h-25 sm:w-25 h-40  bg-cover overflow-hidden">
+    <img src="https://themewagon.github.io/appetizer/images/insta-6.jpg" alt="" class="lg:h-25 sm:w-25 h-40  bg-cover overflow-hidden">
+  </div>
+</div>
+<!-- <script>
+  let btn = document.querySelector(".menu")
+  let ul= document.querySelector("#lo")
+
+  btn.addEventListener('click',()=>{
+         ul.classList.toggle("hidden")
+
+    ul.classList.toggle("flex")
+
+  }) -->
+</script>
   </body>
 </html>
