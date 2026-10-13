@@ -56,131 +56,94 @@
   </head>
 
   <body>
-    <swiper-container
-      class="mySwiper"
-      effect="fade"
-      fade-effect-cross-fade="true"
-      pagination="true"
-      pagination-clickable="true"
-      navigation="true"
-      autoplay-delay="4000"
-      autoplay-disable-on-interaction="false"
-    >
-      <swiper-slide
-        class="bg-[url('https://themewagon.github.io/appetizer/images/bg_3.jpg')] bg-cover bg-center flex justify-center items-center"
-      >
-        <div class="z-30 flex-col text-center justify-center items-center">
-          <h1 class="text-6xl lg:text-[70px] mb-7 lg:px-70 font-extrabold">
-            CREAM HOT AND READY TO SERVE
-          </h1>
-          <div class="flex gap-7 justify-center text-xl">
-            <button
-              class="bg-yellow-500 text-white py-3 px-5 border-1 border-white"
-            >
-              Order Now
-            </button>
-            <button class="border-1 border-white-50 text-white py-3 px-5">
-              View Menu
-            </button>
-          </div>
-        </div>
-      </swiper-slide>
-
-      <swiper-slide
-        class="bg-[url('https://themewagon.github.io/appetizer/images/bg_1.jpg')] bg-cover bg-center flex justify-center items-center"
-      >
-        <div class="-z-30flex-col text-center justify-center items-center">
-          <h1 class="text-6xl lg:text-7xl mb-7 lg:px-60 font-extrabold">
-            BEST PLACE TO KICK YOUR DAY
-          </h1>
-          <div class="flex gap-7 justify-center text-xl">
-            <button
-              class="bg-yellow-500 text-white py-3 px-5 border-1 border-white"
-            >
-              Order Now
-            </button>
-            <button class="border-1 border-white-50 text-white py-3 px-5">
-              View Menu
-            </button>
-          </div>
-        </div>
-      </swiper-slide>
-
-      <swiper-slide
-        class="bg-[url('https://themewagon.github.io/appetizer/images/bg_2.jpg')] bg-cover bg-center flex justify-center items-center"
-      >
-        <div class="-z-30flex-col text-center justify-center items-center">
-          <h1 class="text-6xl lg:text-7xl mb-7 lg:px-50 font-extrabold">
-            OUR DELICIOUS SPECIALTIES
-          </h1>
-          <div class="flex gap-7 justify-center text-xl">
-            <button
-              class="bg-yellow-500 text-white py-3 px-5 border-1 border-white"
-            >
-              Order Now
-            </button>
-
-            <button class="border-1 border-white-50 text-white py-3 px-5">
-              View Menu
-            </button>
-          </div>
-        </div>
-      </swiper-slide>
-    </swiper-container>
-
-    <div class="absolute inset-0 bg-black/40 z-10"></div>
-
-    <div class="absolute top-0 left-0 w-full z-20">
-      <header
-        class="hidden lg:flex font-semibold text-[15.5px] bg-black/50 justify-evenly items-center py-2 text-white/80"
-      >
-        <h3>
-          <i class="ri-phone-fill text-lg"></i>
-          + 1235 2355 98
-        </h3>
-
-        <h3 class="flex justify-center items-center">
-          <i class="ri-mail-fill text-lg mr-1"></i>
-          Youremail@email.com
-        </h3>
-
-        <h2>Open hours: Monday - Sunday 8:00AM - 9:00PM</h2>
-      </header>
-
-      <nav
-        class="absolute flex gap-24 md::gap-84 text-white md:justify-evenly items-center px-5 lg:px-16 py-4"
-      >
-        <h1 class="text-3xl font-extrabold font-sans">Appetizer</h1>
-
-
-        <ul
-          id="lo"
-          class="hidden lg:flex font-semibold justify-center items-center gap-9"
-        >
-          <li>Home</li>
-
-          <li>About</li>
-
-          <li>Menu</li>
-
-          <li>Blog</li>
-
-          <li>Contact</li>
-
-          <li class="bg-yellow-500 flex items-center py-4 px-5 rounded-md">
-            Book a table
-          </li>
-        </ul>
-        
-        <h1  class="menu flex lg:hidden font-semibold text-xl">
-          <i class="ri-menu-line mr-1 flex items-center"></i>
-          MENU
+<section class="relative w-full min-h-screen">
+  <swiper-container
+    class="mySwiper block w-full h-screen"
+    effect="fade"
+    fade-effect-cross-fade="true"
+    pagination="true"
+    pagination-clickable="true"
+    navigation="true"
+    autoplay-delay="4000"
+    autoplay-disable-on-interaction="false"
+  >
+    <swiper-slide class="relative flex items-center justify-center bg-[url('https://imgs.search.brave.com/HuUdH1NZv14P-V7jzFM9Vh01hpBiNL-zCVzeSbBShvg/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9zdGF0/aWMudmVjdGVlenku/Y29tL3N5c3RlbS9y/ZXNvdXJjZXMvdGh1/bWJuYWlscy8wNDgv/MTQ2LzQxNi9zbWFs/bC9hLXBsYXRlLXdp/dGgtYS1kZWxpY2lv/dXMtZGlzaC1vZi1m/b29kLWJhY2tncm91/bmQtZnJlZS1waG90/by5qcGc')] bg-cover bg-center">
+      <div class="absolute inset-0 bg-black/40 z-0"></div>
+      <div class="relative z-10 flex flex-col items-center justify-center text-center text-white px-5">
+        <h1 class="text-4xl md:text-6xl lg:text-7xl mb-7 lg:px-40 font-extrabold">
+          CREAM HOT AND READY TO SERVE
         </h1>
+        <div class="flex flex-wrap gap-4 md:gap-7 justify-center text-base md:text-xl">
+          <button class="bg-yellow-500 text-white py-3 px-5 border border-white">Order Now</button>
+          <button class="border border-white/50 text-white py-3 px-5">View Menu</button>
+        </div>
+      </div>
+    </swiper-slide>
 
-      </nav>
-    </div>
+    <swiper-slide class="relative flex items-center justify-center bg-[url('https://imgs.search.brave.com/rNuSMNtBL9ZvdHGgR_2zPJwOdDg8GFpKbfGZVWMGRT8/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9zdGF0/aWMudmVjdGVlenku/Y29tL3N5c3RlbS9y/ZXNvdXJjZXMvdGh1/bWJuYWlscy8wMzMv/MjUwLzUyMi9zbWFs/bC9zcGFjZS1mb3It/dGV4dC1vbi10ZXh0/dXJlZC1iYWNrZ3Jv/dW5kLXdpdGgtZGVs/aWNpb3VzLXNhbmR3/aWNoLW9uLXRoZS1z/aWRlLWZyb20tdG9w/LXZpZXctYmFja2dy/b3VuZC1pbWFnZS1h/aS1nZW5lcmF0ZWQt/cGhvdG8uanBn')] bg-cover bg-center">
+      <div class="absolute inset-0 bg-black/40 z-0"></div>
+      <div class="relative z-10 flex flex-col items-center justify-center text-center text-white px-5">
+        <h1 class="text-4xl md:text-6xl lg:text-7xl mb-7 lg:px-40 font-extrabold">
+          BEST PLACE TO KICK YOUR DAY
+        </h1>
+        <div class="flex flex-wrap gap-4 md:gap-7 justify-center text-base md:text-xl">
+          <button class="bg-yellow-500 text-white py-3 px-5 border border-white">Order Now</button>
+          <button class="border border-white/50 text-white py-3 px-5">View Menu</button>
+        </div>
+      </div>
+    </swiper-slide>
+
+    <swiper-slide class="relative flex items-center justify-center bg-[url('https://imgs.search.brave.com/0SNltXJyPYuCqFajnlga5yUk8Yjx9L7vRcSK8U__1CI/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9zdGF0/aWMudmVjdGVlenku/Y29tL3N5c3RlbS9y/ZXNvdXJjZXMvdGh1/bWJuYWlscy8wMzUv/NDI4LzE0Mi9zbWFs/bC9haS1nZW5lcmF0/ZWQtZWxlZ2FudC1t/aW5pbWFsaXN0LXRh/YmxlLXNldHRpbmct/aW4tdXBzY2FsZS1y/ZXN0YXVyYW50LXdp/dGgtc29mdC1ib2tl/aC1iYWNrZ3JvdW5k/LXBob3RvLmpwZw')] bg-cover bg-center">
+      <div class="absolute inset-0 bg-black/40 z-0"></div>
+      <div class="relative z-10 flex flex-col items-center justify-center text-center text-white px-5">
+        <h1 class="text-4xl md:text-6xl lg:text-7xl mb-7 lg:px-40 font-extrabold">
+          OUR DELICIOUS SPECIALTIES
+        </h1>
+        <div class="flex flex-wrap gap-4 md:gap-7 justify-center text-base md:text-xl">
+          <button class="bg-yellow-500 text-white py-3 px-5 border border-white">Order Now</button>
+          <button class="border border-white/50 text-white py-3 px-5">View Menu</button>
+        </div>
+      </div>
+    </swiper-slide>
+  </swiper-container>
+
+  <div class="absolute top-0 left-0 w-full z-20">
+    <header class="hidden lg:flex font-semibold text-sm bg-black/40 justify-evenly gap-10 items-center py-1 text-white/90">
+      <h3><i class="ri-phone-fill text-lg"></i> + 1235 2355 98</h3>
+      <h3 class="flex items-center"><i class="ri-mail-fill text-lg mr-1"></i> Youremail@email.com</h3>
+      <h2>Open hours: Monday - Sunday 8:00AM - 9:00PM</h2>
+    </header>
+
+    <nav class="w-full flex justify-between items-center px-5 md:px-10 lg:px-16 py-1  text-white">
+      <h1 class="text-2xl md:text-3xl font-extrabold font-sans">Appetizer</h1>
+
+      <ul class="hidden lg:flex items-center gap-8 font-semibold">
+        <li class="cursor-pointer hover:text-yellow-400">Home</li>
+        <li class="cursor-pointer hover:text-yellow-400">About</li>
+        <li class="cursor-pointer hover:text-yellow-400">Menu</li>
+        <li class="cursor-pointer hover:text-yellow-400">Blog</li>
+        <li class="cursor-pointer hover:text-yellow-400">Contact</li>
+        <li class="bg-yellow-500 px-5 py-3 rounded-md cursor-pointer">Book a table</li>
+      </ul>
+
+      <button id="menuBtn" class="flex lg:hidden items-center font-semibold text-lg">
+        <i class="ri-menu-line mr-2 text-xl"></i> MENU
+      </button>
+    </nav>
+
+    <ul id="mobileMenu" class="hidden absolute top-full left-0 w-full bg-black/95 text-white flex-col gap-5 p-6 lg:hidden">
+      <li class="cursor-pointer hover:text-yellow-400">Home</li>
+      <li class="cursor-pointer hover:text-yellow-400">About</li>
+      <li class="cursor-pointer hover:text-yellow-400">Menu</li>
+      <li class="cursor-pointer hover:text-yellow-400">Blog</li>
+      <li class="cursor-pointer hover:text-yellow-400">Contact</li>
+      <li class="bg-yellow-500 text-center py-3 px-5 rounded-md cursor-pointer">Book a table</li>
+    </ul>
+  </div>
+</section>
+
     <section
-      class="w-full min-h-screen bg-white text-black overflow-hidden bg-[url('https://themewagon.github.io/appetizer/images/bg_4.jpg')] bg-cover bg-center"
+      class="w-full min-h-screen bg-white text-black overflow-hidden bg-[url('https://imgs.search.brave.com/ifcUKiMhrr5HYMITXHJY8vwRv6tl43EoHa8JsThJxeA/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9zdGF0/aWMudmVjdGVlenku/Y29tL3N5c3RlbS9y/ZXNvdXJjZXMvdGh1/bWJuYWlscy8wMzIv/NDc0LzA0NC9zbWFs/bC93b29kZW4tdGFi/bGUtdG9wLW9uLWJs/dXJyZWQtZ3JlZW4t/anVuZ2xlLWJhY2tn/cm91bmQtY2FuLWJl/LXVzZWQtZm9yLWRp/c3BsYXktb3ItbW9u/dGFnZS1vZi15b3Vy/LXByb2R1Y3RzLWdl/bmVyYXRpdmUtYWkt/cGhvdG8uanBn')] bg-cover bg-center"
     >
       <div class="h-160  md:h-120 pt-20 lg:pt-25 text-center px-5 bg-white">
         <div class="relative inline-block">
@@ -214,22 +177,22 @@
           class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 text-center mt-10  pb-20"
         >
           <div class="py-5">
-            <h3 class="text-5xl lg:text-6xl font-semibold">18</h3>
+<h3 id="count1" class="text-5xl lg:text-6xl font-semibold">0</h3>
             <p class="text-xl mt-5">Years experienced</p>
           </div>
 
           <div class="py-5">
-            <h3 class="text-5xl lg:text-6xl font-semibold">15,000</h3>
+<h3 id="count2" class="text-5xl lg:text-6xl font-semibold">0</h3>
             <p class="text-xl mt-5">Happy Customers</p>
           </div>
 
           <div class="py-5">
-            <h3 class="text-5xl lg:text-6xl font-semibold">100</h3>
+<h3 id="count3" class="text-5xl lg:text-6xl font-semibold">0</h3>
             <p class="text-xl mt-5">Menus</p>
           </div>
 
           <div class="py-5">
-            <h3 class="text-5xl lg:text-6xl font-semibold">20</h3>
+<h3 id="count4" class="text-5xl lg:text-6xl font-semibold">0</h3>
             <p class="text-xl mt-5">Staffs</p>
           </div>
         </div>
@@ -295,223 +258,232 @@
         </div>
       </div>
     </section>
+
 <section class="flex flex-col bg-white text-black justify-center text-center py-8 md:py-20 sm:px-5">
-<h1 class="text-6xl font-extrabold mb-20">Our menu</h1>
 
-<div class="flex grid grid-cols-1 lg:grid-cols-3 sm:px-10 px-2 gap-10 mt-7">
+  <h1 class="text-6xl font-extrabold mb-20">Our menu</h1>
 
-<div class="flex flex-col">
-<h1 class="flex justify-evenly gap-49 text-4xl font-sans font-extrabold mb-7">Breakfast</h1>
+  <div class="grid grid-cols-1 lg:grid-cols-3 sm:px-10 px-2 gap-10 mt-7">
 
-<div class="flex justify-evenly gap-7 flex-col">
+    <!-- Breakfast -->
+    <div class="flex flex-col">
+      <h1 class="text-4xl font-extrabold mb-7">Breakfast</h1>
 
-<div class="group hover:bg-orange-500 border-1 border-black/10 rounded-md px-1 sm:px-3 py-5 flex justify-evenly gap-2 items-center">
-<img src="https://themewagon.github.io/appetizer/images/breakfast-1.jpg" alt="" class="w-20 sm:w-24 rounded-full">
-<div class="flex ml-3 flex-col justify-evenly gap-3 text-start">
-<h1 class="font-sans font-semibold text-2xl md:text-[27px]">Grilled Beef with potatoes</h1>
-<h2 class="text-black/75 text-base lg:text-[18px]">Meat, Potatoes, Rice, Tomatoe</h2>
-</div>
-<h2 class="text-xl mb-15 border-b-3 border-orange-500 group-hover:text-white">$29</h2>
-</div>
+      <div class="flex flex-col gap-7">
 
-<div class="group hover:bg-orange-500 border-1 border-black/10 rounded-md px-1 sm:px-3 py-5 flex justify-evenly gap-2 items-center">
-<img src="https://themewagon.github.io/appetizer/images/lunch-1.jpg" alt="" class="w-24 rounded-full">
-<div class="flex ml-3 flex-col justify-evenly gap-3 text-start">
-<h1 class="font-sans font-semibold text-2xl md:text-[27px]">Grilled Beef with potatoes</h1>
-<h2 class="text-black/75 text-base lg:text-[18px]">Meat, Potatoes, Rice, Tomatoe</h2>
-</div>
-<h2 class="text-xl mb-15 border-b-3 border-orange-500 group-hover:text-white">$29</h2>
-</div>
+        <div class="group hover:bg-orange-500 border border-black/10 rounded-md px-3 py-5 flex justify-between gap-2 items-center">
+          <img src="https://images.unsplash.com/photo-1525351484163-7529414344d8?auto=format&fit=crop&w=300&q=80" alt="Breakfast plate" class="w-20 sm:w-24 h-20 object-cover rounded-full">
+          <div class="flex ml-3 flex-col gap-3 text-start">
+            <h2 class="font-semibold text-xl md:text-2xl">Classic Breakfast</h2>
+            <p class="text-black/75 text-base">Eggs, Toast, Vegetables</p>
+          </div>
+          <h2 class="text-xl border-b-2 border-orange-500 group-hover:text-white">$12</h2>
+        </div>
 
-<div class="group hover:bg-orange-500 border-1 border-black/10 rounded-md px-1 sm:px-3 py-5 flex justify-evenly gap-2 items-center">
-<img src="https://themewagon.github.io/appetizer/images/dinner-1.jpg" alt="" class="w-20 sm:w-24 rounded-full">
-<div class="flex ml-3 flex-col justify-evenly gap-3 text-start">
-<h1 class="font-sans font-semibold text-2xl md:text-[27px]">Grilled Beef with potatoes</h1>
-<h2 class="text-black/75 text-base lg:text-[18px]">Meat, Potatoes, Rice, Tomatoe</h2>
-</div>
-<h2 class="text-xl mb-15 border-b-3 border-orange-500 group-hover:text-white">$29</h2>
-</div>
+        <div class="group hover:bg-orange-500 border border-black/10 rounded-md px-3 py-5 flex justify-between gap-2 items-center">
+          <img src="https://images.unsplash.com/photo-1504754524776-8f4f37790ca0?auto=format&fit=crop&w=300&q=80" alt="Healthy breakfast" class="w-20 sm:w-24 h-20 object-cover rounded-full">
+          <div class="flex ml-3 flex-col gap-3 text-start">
+            <h2 class="font-semibold text-xl md:text-2xl">Healthy Breakfast</h2>
+            <p class="text-black/75 text-base">Bread, Fruits, Yogurt</p>
+          </div>
+          <h2 class="text-xl border-b-2 border-orange-500 group-hover:text-white">$15</h2>
+        </div>
 
-</div>
-</div>
+        <div class="group hover:bg-orange-500 border border-black/10 rounded-md px-3 py-5 flex justify-between gap-2 items-center">
+          <img src="https://images.unsplash.com/photo-1490645935967-10de6ba17061?auto=format&fit=crop&w=300&q=80" alt="Healthy food bowl" class="w-20 sm:w-24 h-20 object-cover rounded-full">
+          <div class="flex ml-3 flex-col gap-3 text-start">
+            <h2 class="font-semibold text-xl md:text-2xl">Fruit Bowl</h2>
+            <p class="text-black/75 text-base">Fresh Fruits, Honey</p>
+          </div>
+          <h2 class="text-xl border-b-2 border-orange-500 group-hover:text-white">$10</h2>
+        </div>
 
-<div class="flex flex-col">
-<h1 class="flex justify-evenly gap-49 text-4xl font-sans font-extrabold mb-7">Lunch</h1>
+      </div>
+    </div>
 
-<div class="flex justify-evenly gap-7 flex-col">
+    <!-- Lunch -->
+    <div class="flex flex-col">
+      <h1 class="text-4xl font-extrabold mb-7">Lunch</h1>
 
-<div class="group hover:bg-orange-500 border-1 border-black/10 rounded-md px-1 sm:px-3 py-5 flex justify-evenly gap-2 items-center">
-<img src="https://themewagon.github.io/appetizer/images/lunch-1.jpg" alt="" class="w-20 sm:w-24 rounded-full">
-<div class="flex ml-3 flex-col justify-evenly gap-3 text-start">
-<h1 class="font-sans font-semibold text-2xl md:text-[27px]">Grilled Beef with potatoes</h1>
-<h2 class="text-black/75 text-base lg:text-[18px]">Meat, Potatoes, Rice, Tomatoe</h2>
-</div>
-<h2 class="text-xl mb-15 border-b-3 border-orange-500 group-hover:text-white">$29</h2>
-</div>
+      <div class="flex flex-col gap-7">
 
-<div class="group hover:bg-orange-500 border-1 border-black/10 rounded-md px-1 sm:px-3 py-5 flex justify-evenly gap-2 items-center">
-<img src="https://themewagon.github.io/appetizer/images/lunch-2.jpg" alt="" class="w-20 sm:w-24 rounded-full">
-<div class="flex ml-3 flex-col justify-evenly gap-3 text-start">
-<h1 class="font-sans font-semibold text-2xl md:text-[27px]">Grilled Beef with potatoes</h1>
-<h2 class="text-black/75 text-base lg:text-[18px]">Meat, Potatoes, Rice, Tomatoe</h2>
-</div>
-<h2 class="text-xl mb-15 border-b-3 border-orange-500 group-hover:text-white">$29</h2>
-</div>
+        <div class="group hover:bg-orange-500 border border-black/10 rounded-md px-3 py-5 flex justify-between gap-2 items-center">
+          <img src="https://images.unsplash.com/photo-1546069901-ba9599a7e63c?auto=format&fit=crop&w=300&q=80" alt="Fresh salad" class="w-20 sm:w-24 h-20 object-cover rounded-full">
+          <div class="flex ml-3 flex-col gap-3 text-start">
+            <h2 class="font-semibold text-xl md:text-2xl">Fresh Salad Bowl</h2>
+            <p class="text-black/75 text-base">Lettuce, Tomato, Vegetables</p>
+          </div>
+          <h2 class="text-xl border-b-2 border-orange-500 group-hover:text-white">$14</h2>
+        </div>
 
-<div class="group hover:bg-orange-500 border-1 border-black/10 rounded-md px-1 sm:px-3 py-5 flex justify-evenly gap-2 items-center">
-<img src="https://themewagon.github.io/appetizer/images/dinner-3.jpg" alt="" class="w-20 sm:w-24 rounded-full">
-<div class="flex ml-3 flex-col justify-evenly gap-3 text-start">
-<h1 class="font-sans font-semibold text-2xl md:text-[27px]">Grilled Beef with potatoes</h1>
-<h2 class="text-black/75 text-base lg:text-[18px]">Meat, Potatoes, Rice, Tomatoe</h2>
-</div>
-<h2 class="text-xl mb-15 border-b-3 border-orange-500 group-hover:text-white">$29</h2>
-</div>
+        <div class="group hover:bg-orange-500 border border-black/10 rounded-md px-3 py-5 flex justify-between gap-2 items-center">
+          <img src="https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?auto=format&fit=crop&w=300&q=80" alt="Pizza" class="w-20 sm:w-24 h-20 object-cover rounded-full">
+          <div class="flex ml-3 flex-col gap-3 text-start">
+            <h2 class="font-semibold text-xl md:text-2xl">Italian Pizza</h2>
+            <p class="text-black/75 text-base">Cheese, Tomato, Herbs</p>
+          </div>
+          <h2 class="text-xl border-b-2 border-orange-500 group-hover:text-white">$18</h2>
+        </div>
 
-</div>
-</div>
+        <div class="group hover:bg-orange-500 border border-black/10 rounded-md px-3 py-5 flex justify-between gap-2 items-center">
+          <img src="https://images.unsplash.com/photo-1555939594-58d7cb561ad1?auto=format&fit=crop&w=300&q=80" alt="Grilled food" class="w-20 sm:w-24 h-20 object-cover rounded-full">
+          <div class="flex ml-3 flex-col gap-3 text-start">
+            <h2 class="font-semibold text-xl md:text-2xl">Grilled Chicken</h2>
+            <p class="text-black/75 text-base">Chicken, Spices, Herbs</p>
+          </div>
+          <h2 class="text-xl border-b-2 border-orange-500 group-hover:text-white">$20</h2>
+        </div>
 
-<div class="flex flex-col ">
-<h1 class="flex justify-evenly gap-49 text-4xl font-sans font-extrabold mb-7">Dinner</h1>
+      </div>
+    </div>
 
-<div class="flex justify-evenly gap-7 flex-col">
+    <!-- Dinner -->
+    <div class="flex flex-col">
+      <h1 class="text-4xl font-extrabold mb-7">Dinner</h1>
 
-<div class="group hover:bg-orange-500 border-1  border-black/10 rounded-md px-1 sm:px-3 py-5 flex justify-evenly gap-2 items-center">
-<img src="https://themewagon.github.io/appetizer/images/breakfast-3.jpg" alt="" class="w-20 sm:w-24 rounded-full">
-<div class="flex ml-3 flex-col justify-evenly gap-3 text-start">
-<h1 class="font-sans font-semibold text-2xl md:text-[27px]">Grilled Beef with potatoes</h1>
-<h2 class="text-black/75 text-base lg:text-[18px]">Meat, Potatoes, Rice, Tomatoe</h2>
-</div>
-<h2 class="text-xl mb-15 border-b-3 border-orange-500 group-hover:text-white">$29</h2>
-</div>
+      <div class="flex flex-col gap-7">
 
-<div class="group hover:bg-orange-500 border-1 px-1 sm:px-3 py-5 border-black/10 rounded-md flex justify-evenly gap-2 items-center">
-<img src="https://themewagon.github.io/appetizer/images/lunch-3.jpg" alt="" class="w-20 sm:w-24 rounded-full">
-<div class="flex ml-3 flex-col justify-evenly gap-3 text-start">
-<h1 class="font-sans font-semibold text-2xl md:text-[27px]">Grilled Beef with potatoes</h1>
-<h2 class="text-black/75 text-base lg:text-[18px]">Meat, Potatoes, Rice, Tomatoe</h2>
-</div>
-<h2 class="text-xl mb-15 border-b-3 border-orange-500 group-hover:text-white">$29</h2>
-</div>
+        <div class="group hover:bg-orange-500 border border-black/10 rounded-md px-3 py-5 flex justify-between gap-2 items-center">
+          <img src="https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&w=300&q=80" alt="Steak dinner" class="w-20 sm:w-24 h-20 object-cover rounded-full">
+          <div class="flex ml-3 flex-col gap-3 text-start">
+            <h2 class="font-semibold text-xl md:text-2xl">Grilled Steak</h2>
+            <p class="text-black/75 text-base">Steak, Potatoes, Herbs</p>
+          </div>
+          <h2 class="text-xl border-b-2 border-orange-500 group-hover:text-white">$29</h2>
+        </div>
 
-<div class="group hover:bg-orange-500 border-1 border-black/10 rounded-md px-1 sm:  px-3 py-5 flex justify-evenly gap-2 items-center">
-<img src="https://themewagon.github.io/appetizer/images/dinner-2.jpg" alt="" class="w-20 sm:w-24 rounded-full">
-<div class="flex ml-3 flex-col justify-evenly gap-3 text-start">
-<h1 class="font-sans font-semibold text-2xl md:text-[27px]">Grilled Beef with potatoes</h1>
-<h2 class="text-black/75 text-base lg:text-[18px]">Meat, Potatoes, Rice, Tomatoe</h2>
-</div>
-<h2 class="text-xl mb-15 border-b-3 border-orange-500 group-hover:text-white">$29</h2>
-</div>
+        <div class="group hover:bg-orange-500 border border-black/10 rounded-md px-3 py-5 flex justify-between gap-2 items-center">
+          <img src="https://images.unsplash.com/photo-1515003197210-e0cd7184f8b5?auto=format&fit=crop&w=300&q=80" alt="Pasta dinner" class="w-20 sm:w-24 h-20 object-cover rounded-full">
+          <div class="flex ml-3 flex-col gap-3 text-start">
+            <h2 class="font-semibold text-xl md:text-2xl">Creamy Pasta</h2>
+            <p class="text-black/75 text-base">Pasta, Cream, Parmesan</p>
+          </div>
+          <h2 class="text-xl border-b-2 border-orange-500 group-hover:text-white">$22</h2>
+        </div>
 
-</div>
-</div>
+        <div class="group hover:bg-orange-500 border border-black/10 rounded-md px-3 py-5 flex justify-between gap-2 items-center">
+          <img src="https://images.unsplash.com/photo-1432139555190-58524dae6a55?auto=format&fit=crop&w=300&q=80" alt="Roasted meal" class="w-20 sm:w-24 h-20 object-cover rounded-full">
+          <div class="flex ml-3 flex-col gap-3 text-start">
+            <h2 class="font-semibold text-xl md:text-2xl">Roasted Chicken</h2>
+            <p class="text-black/75 text-base">Chicken, Vegetables, Herbs</p>
+          </div>
+          <h2 class="text-xl border-b-2 border-orange-500 group-hover:text-white">$25</h2>
+        </div>
 
-<div class="flex flex-col mt-6">
-<h1 class="flex justify-evenly gap-49 text-4xl font-sans font-extrabold mb-7">Desserts</h1>
+      </div>
+    </div>
 
-<div class="flex justify-evenly gap-7 flex-col">
+    <!-- Desserts -->
+    <div class="flex flex-col mt-6">
+      <h1 class="text-4xl font-extrabold mb-7">Desserts</h1>
 
-<div class="group hover:bg-orange-500 border-1 border-black/10 rounded-md px-1 sm:px-3 py-5 flex justify-evenly gap-2 items-center">
-<img src="https://themewagon.github.io/appetizer/images/dessert-1.jpg" alt="" class="w-20 sm:w-24 rounded-full">
-<div class="flex ml-3 flex-col justify-evenly gap-3 text-start">
-<h1 class="font-sans font-semibold text-2xl md:text-[27px]">Grilled Beef with potatoes</h1>
-<h2 class="text-black/75 text-base lg:text-[18px]">Meat, Potatoes, Rice, Tomatoe</h2>
-</div>
-<h2 class="text-xl mb-15 border-b-3 border-orange-500 group-hover:text-white">$29</h2>
-</div>
+      <div class="flex flex-col gap-7">
 
-<div class="group hover:bg-orange-500 border-1 border-black/10 rounded-md px-3 py-5 flex justify-evenly gap-2 items-center">
-<img src="https://themewagon.github.io/appetizer/images/dessert-2.jpg" alt="" class="w-20 sm:w-24 rounded-full">
-<div class="flex ml-3 flex-col justify-evenly gap-3 text-start">
-<h1 class="font-sans font-semibold text-2xl md:text-[27px]">Grilled Beef with potatoes</h1>
-<h2 class="text-black/75 text-base lg:text-[18px]">Meat, Potatoes, Rice, Tomatoe</h2>
-</div>
-<h2 class="text-xl mb-15 border-b-3 border-orange-500 group-hover:text-white">$29</h2>
-</div>
+        <div class="group hover:bg-orange-500 border border-black/10 rounded-md px-3 py-5 flex justify-between gap-2 items-center">
+          <img src="https://images.unsplash.com/photo-1578985545062-69928b1d9587?auto=format&fit=crop&w=300&q=80" alt="Chocolate cake" class="w-20 sm:w-24 h-20 object-cover rounded-full">
+          <div class="flex ml-3 flex-col gap-3 text-start">
+            <h2 class="font-semibold text-xl md:text-2xl">Chocolate Cake</h2>
+            <p class="text-black/75 text-base">Chocolate, Cream, Cocoa</p>
+          </div>
+          <h2 class="text-xl border-b-2 border-orange-500 group-hover:text-white">$9</h2>
+        </div>
 
-<div class="group hover:bg-orange-500 border-1 border-black/10 rounded-md px-1 lg:px-3 py-5 flex justify-evenly gap-2 items-center">
-<img src="https://themewagon.github.io/appetizer/images/dessert-3.jpg" alt="" class="w-20 sm:w-24 rounded-full">
-<div class="flex ml-3 flex-col justify-evenly gap-3 text-start">
-<h1 class="font-sans font-semibold text-2xl md:text-[27px]">Grilled Beef with potatoes</h1>
-<h2 class="text-black/75 text-base lg:text-[18px]">Meat, Potatoes, Rice, Tomatoe</h2>
-</div>
-<h2 class="text-xl mb-15 border-b-3 border-orange-500 group-hover:text-white">$29</h2>
-</div>
+        <div class="group hover:bg-orange-500 border border-black/10 rounded-md px-3 py-5 flex justify-between gap-2 items-center">
+          <img src="https://images.unsplash.com/photo-1563805042-7684c019e1cb?auto=format&fit=crop&w=300&q=80" alt="Ice cream" class="w-20 sm:w-24 h-20 object-cover rounded-full">
+          <div class="flex ml-3 flex-col gap-3 text-start">
+            <h2 class="font-semibold text-xl md:text-2xl">Ice Cream</h2>
+            <p class="text-black/75 text-base">Vanilla, Chocolate, Nuts</p>
+          </div>
+          <h2 class="text-xl border-b-2 border-orange-500 group-hover:text-white">$7</h2>
+        </div>
 
-</div>
-</div>
+        <div class="group hover:bg-orange-500 border border-black/10 rounded-md px-3 py-5 flex justify-between gap-2 items-center">
+          <img src="https://images.unsplash.com/photo-1488477181946-6428a0291777?auto=format&fit=crop&w=300&q=80" alt="Dessert with fruit" class="w-20 sm:w-24 h-20 object-cover rounded-full">
+          <div class="flex ml-3 flex-col gap-3 text-start">
+            <h2 class="font-semibold text-xl md:text-2xl">Fruit Dessert</h2>
+            <p class="text-black/75 text-base">Fresh Fruits, Cream</p>
+          </div>
+          <h2 class="text-xl border-b-2 border-orange-500 group-hover:text-white">$8</h2>
+        </div>
 
-<div class="flex flex-col mt-6">
-<h1 class="flex justify-evenly gap-49 text-4xl font-sans font-extrabold mb-7">Wine Card</h1>
+      </div>
+    </div>
 
-<div class="flex justify-evenly gap-7 flex-col">
+    <!-- Wine Card -->
+    <div class="flex flex-col mt-6">
+      <h1 class="text-4xl font-extrabold mb-7">Wine Card</h1>
 
-<div class="group hover:bg-orange-500 border-1 border-black/10 rounded-md px-1 lg:px-3 py-5 flex justify-evenly gap-2 items-center">
-<img src="https://themewagon.github.io/appetizer/images/wine-1.jpg" alt="" class="w-20 sm:w-24 rounded-full">
-<div class="flex ml-3 flex-col justify-evenly gap-3 text-start">
-<h1 class="font-sans font-semibold text-2xl md:text-[27px]">Grilled Beef with potatoes</h1>
-<h2 class="text-black/75 text-base lg:text-[18px]">Meat, Potatoes, Rice, Tomatoe</h2>
-</div>
-<h2 class="text-xl mb-15 border-b-3 border-orange-500 group-hover:text-white">$29</h2>
-</div>
+      <div class="flex flex-col gap-7">
 
-<div class="group hover:bg-orange-500 border-1 border-black/10 rounded-md px-1 lg:px-3 py-5 flex justify-evenly gap-2 items-center">
-<img src="https://themewagon.github.io/appetizer/images/wine-2.jpg" alt="" class="w-20 sm:w-24 rounded-full">
-<div class="flex ml-3 flex-col justify-evenly gap-3 text-start">
-<h1 class="font-sans font-semibold text-2xl md:text-[27px]">Grilled Beef with potatoes</h1>
-<h2 class="text-black/75 text-base lg:text-[18px]">Meat, Potatoes, Rice, Tomatoe</h2>
-</div>
-<h2 class="text-xl mb-15 border-b-3 border-orange-500 group-hover:text-white">$29</h2>
-</div>
+        <div class="group hover:bg-orange-500 border border-black/10 rounded-md px-3 py-5 flex justify-between gap-2 items-center">
+          <img src="https://images.unsplash.com/photo-1510812431401-41d2bd2722f3?auto=format&fit=crop&w=300&q=80" alt="Red wine" class="w-20 sm:w-24 h-20 object-cover rounded-full">
+          <div class="flex ml-3 flex-col gap-3 text-start">
+            <h2 class="font-semibold text-xl md:text-2xl">Red Wine</h2>
+            <p class="text-black/75 text-base">Rich, Smooth, Full-bodied</p>
+          </div>
+          <h2 class="text-xl border-b-2 border-orange-500 group-hover:text-white">$29</h2>
+        </div>
 
-<div class="group hover:bg-orange-500 border-1 border-black/10 rounded-md px-1 lg:px-3 py-5 flex justify-evenly gap-2 items-center">
-<img src="https://themewagon.github.io/appetizer/images/wine-3.jpg" alt="" class="w-20 sm:  w-24 rounded-full">
-<div class="flex ml-3 flex-col justify-evenly gap-3 text-start">
-<h1 class="font-sans font-semibold text-2xl md:text-[27px]">Grilled Beef with potatoes</h1>
-<h2 class="text-black/75 text-base lg:text-[18px]">Meat, Potatoes, Rice, Tomatoe</h2>
-</div>
-<h2 class="text-xl mb-15 border-b-3 border-orange-500 group-hover:text-white">$29</h2>
-</div>
+        <div class="group hover:bg-orange-500 border border-black/10 rounded-md px-3 py-5 flex justify-between gap-2 items-center">
+          <img src="https://images.unsplash.com/photo-1474722883778-792e7990302f?auto=format&fit=crop&w=300&q=80" alt="Wine glasses" class="w-20 sm:w-24 h-20 object-cover rounded-full">
+          <div class="flex ml-3 flex-col gap-3 text-start">
+            <h2 class="font-semibold text-xl md:text-2xl">White Wine</h2>
+            <p class="text-black/75 text-base">Fresh, Crisp, Fruity</p>
+          </div>
+          <h2 class="text-xl border-b-2 border-orange-500 group-hover:text-white">$25</h2>
+        </div>
 
-</div>
-</div>
+        <div class="group hover:bg-orange-500 border border-black/10 rounded-md px-3 py-5 flex justify-between gap-2 items-center">
+          <img src="https://images.unsplash.com/photo-1516594915697-87eb3b1c14ea?auto=format&fit=crop&w=300&q=80" alt="Wine bottle" class="w-20 sm:w-24 h-20 object-cover rounded-full">
+          <div class="flex ml-3 flex-col gap-3 text-start">
+            <h2 class="font-semibold text-xl md:text-2xl">Special Wine</h2>
+            <p class="text-black/75 text-base">Premium Grape Blend</p>
+          </div>
+          <h2 class="text-xl border-b-2 border-orange-500 group-hover:text-white">$32</h2>
+        </div>
 
-<div class="flex flex-col mt-6">
-<h1 class="flex justify-evenly gap-49 text-4xl font-sans font-extrabold mb-7">Drinks</h1>
+      </div>
+    </div>
 
-<div class="flex justify-evenly gap-7 flex-col">
+    <!-- Drinks -->
+    <div class="flex flex-col mt-6">
+      <h1 class="text-4xl font-extrabold mb-7">Drinks</h1>
 
-<div class="group hover:bg-orange-500 border-1 border-black/10 rounded-md px-1 lg:px-3 py-5 flex justify-evenly gap-2 items-center">
-<img src="https://themewagon.github.io/appetizer/images/drink-1.jpg" alt="" class="w-20 sm:w-24 rounded-full">
-<div class="flex ml-3 flex-col justify-evenly gap-3 text-start">
-<h1 class="font-sans font-semibold text-2xl md:text-[27px]">Grilled Beef with potatoes</h1>
-<h2 class="text-black/75 text-base lg:text-[18px]">Meat, Potatoes, Rice, Tomatoe</h2>
-</div>
-<h2 class="text-xl mb-15 border-b-3 border-orange-500 group-hover:text-white">$29</h2>
-</div>
+      <div class="flex flex-col gap-7">
 
-<div class="group hover:bg-orange-500 border-1  border-black/10 rounded-md px-1 lg:px-3 py-5 flex justify-evenly gap-2 items-center">
-<img src="https://themewagon.github.io/appetizer/images/drink-2.jpg" alt="" class="w-20 sm:w-24 rounded-full">
-<div class="flex ml-3 flex-col justify-evenly gap-3 text-start">
-<h1 class="font-sans font-semibold text-2xl md:text-[27px]">Grilled Beef with potatoes</h1>
-<h2 class="text-black/75 text-base lg:text-[18px]">Meat, Potatoes, Rice, Tomatoe</h2>
-</div>
-<h2 class="text-xl mb-15 border-b-3 border-orange-500 group-hover:text-white">$29</h2>
-</div>
+        <div class="group hover:bg-orange-500 border border-black/10 rounded-md px-3 py-5 flex justify-between gap-2 items-center">
+          <img src="https://images.unsplash.com/photo-1513558161293-cdac3ed5b9a7?auto=format&fit=crop&w=300&q=80" alt="Fresh juice" class="w-20 sm:w-24 h-20 object-cover rounded-full">
+          <div class="flex ml-3 flex-col gap-3 text-start">
+            <h2 class="font-semibold text-xl md:text-2xl">Fresh Juice</h2>
+            <p class="text-black/75 text-base">Fresh Fruit, Ice</p>
+          </div>
+          <h2 class="text-xl border-b-2 border-orange-500 group-hover:text-white">$6</h2>
+        </div>
 
-<div class="group hover:bg-orange-500 border-1 border-black/10 rounded-md px-1 lg:px-3 py-5 flex justify-evenly gap-2 items-center">
-<img src="https://themewagon.github.io/appetizer/images/drink-3.jpg" alt="" class="w-20 sm:w-24 rounded-full">
-<div class="flex ml-3 flex-col justify-evenly gap-3 text-start">
-<h1 class="font-sans font-semibold text-2xl md:text-[27px]">Grilled Beef with potatoes</h1>
-<h2 class="text-black/75 text-base lg:text-[18px]">Meat, Potatoes, Rice, Tomatoe</h2>
-</div>
-<h2 class="text-xl mb-15 border-b-3 border-orange-500 group-hover:text-white">$29</h2>
-</div>
+        <div class="group hover:bg-orange-500 border border-black/10 rounded-md px-3 py-5 flex justify-between gap-2 items-center">
+          <img src="https://images.unsplash.com/photo-1461023058943-07fcbe16d735?auto=format&fit=crop&w=300&q=80" alt="Iced coffee" class="w-20 sm:w-24 h-20 object-cover rounded-full">
+          <div class="flex ml-3 flex-col gap-3 text-start">
+            <h2 class="font-semibold text-xl md:text-2xl">Iced Coffee</h2>
+            <p class="text-black/75 text-base">Coffee, Milk, Ice</p>
+          </div>
+          <h2 class="text-xl border-b-2 border-orange-500 group-hover:text-white">$5</h2>
+        </div>
 
-</div>
-</div>
+        <div class="group hover:bg-orange-500 border border-black/10 rounded-md px-3 py-5 flex justify-between gap-2 items-center">
+          <img src="https://images.unsplash.com/photo-1544145945-f90425340c7e?auto=format&fit=crop&w=300&q=80" alt="Cold drink" class="w-20 sm:w-24 h-20 object-cover rounded-full">
+          <div class="flex ml-3 flex-col gap-3 text-start">
+            <h2 class="font-semibold text-xl md:text-2xl">Cold Drink</h2>
+            <p class="text-black/75 text-base">Lemon, Mint, Soda</p>
+          </div>
+          <h2 class="text-xl border-b-2 border-orange-500 group-hover:text-white">$4</h2>
+        </div>
 
-</div>
+      </div>
+    </div>
+
+  </div>
 </section>
+
 <section class="flex flex-col lg:flex-row bg-white text-black py-8 px-5 pt-7 md:px-14 gap-10">
 
     <div class="flex flex-col w-full lg:w-1/2">
@@ -587,12 +559,12 @@
         Our master chefs
     </h1>
 
-    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-19 text-start items-center lg:px-30">
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-19 text-start items-center lg:px-20">
 
-        <div class="flex flex-col justify-center gap-3  items-center w-full lg:w-62">
+        <div class="flex flex-col justify-center gap-3 items-center w-full lg:w-62">
 
-            <img src="https://themewagon.github.io/appetizer/images/chef-4.jpg"
-                 alt=""
+            <img src="https://images.unsplash.com/photo-1600565193348-f74bd3c7ccdf?auto=format&fit=crop&w=600&q=80"
+                 alt="John Smith, restaurant chef"
                  class="w-full h-[50vw] lg:w-65 lg:h-80 object-cover rounded-md">
 
             <div class="flex flex-col text-start w-full px-1 lg:w-65">
@@ -615,8 +587,8 @@
 
         <div class="flex flex-col justify-center gap-3 items-center w-full lg:w-62">
 
-            <img src="https://themewagon.github.io/appetizer/images/chef-2.jpg"
-                 alt=""
+            <img src="https://images.unsplash.com/photo-1577219491135-ce391730fb2c?auto=format&fit=crop&w=600&q=80"
+                 alt="Rebeca Welson, head chef"
                  class="w-full h-[50vw] lg:w-65 lg:h-80 object-cover rounded-md">
 
             <div class="flex flex-col text-start w-full px-1 lg:w-65">
@@ -639,12 +611,12 @@
 
         <div class="flex flex-col justify-center gap-3 items-center w-full lg:w-62">
 
-            <img src="https://themewagon.github.io/appetizer/images/chef-3.jpg"
-                 alt=""
-                 class="w-full h-[50vw] lg:w-65 lg:h-80 object-cover px-1 rounded-md">
+            <img src="https://images.unsplash.com/photo-1583394293214-28ded15ee548?auto=format&fit=crop&w=600&q=80"
+                 alt="Kharl Branyt, chef"
+                 class="w-full h-[50vw] lg:w-65 lg:h-80 object-cover rounded-md">
 
             <div class="flex flex-col text-start px-1 w-full lg:w-65">
-                <h1 class="text-xl font-bold">kharl Branyt</h1>
+                <h1 class="text-xl font-bold">Kharl Branyt</h1>
                 <h2 class="text-[17px] text-black/45">Chef</h2>
             </div>
 
@@ -661,11 +633,11 @@
 
         </div>
 
-        <div class="flex flex-col justify-center gap-3  items-center w-full lg:w-62">
+        <div class="flex flex-col justify-center gap-3 items-center w-full lg:w-62">
 
-            <img src="https://themewagon.github.io/appetizer/images/chef-1.jpg"
-                 alt=""
-                 class="w-full h-[50vw] lg:w-65 lg:h-80 object-cover px-1 rounded-md">
+            <img src="https://imgs.search.brave.com/R19Xwij-NxGitxtWgnABHnfVnS9OrQmmjLpOQ9wDI4w/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9tZWRp/YS5pc3RvY2twaG90/by5jb20vaWQvOTk2/MDI2NjIwL3Bob3Rv/L3NtaWxpbmctY2hl/Zi1ob2xkaW5nLXBs/YXRlLWFuZC1wb2lu/dGluZy1vbi1pdC1p/c29sYXRlZC5qcGc_/cz02MTJ4NjEyJnc9/MCZrPTIwJmM9bTFS/V3FxbU5PM2VrY21U/c1BKSk96SlZFaEZz/aThUY294UHJTbHk5/TERTQT0"
+                 alt="Luke Simon, professional chef"
+                 class="w-full h-[50vw] lg:w-65 lg:h-80 object-cover rounded-md">
 
             <div class="flex flex-col text-start w-full px-1 lg:w-65">
                 <h1 class="text-xl font-bold">Luke Simon</h1>
@@ -682,21 +654,50 @@
                 <li><i class="ri-facebook-fill"></i></li>
                 <li><i class="ri-instagram-fill"></i></li>
             </ul>
-</div>
+
         </div>
+
     </div>
 
 </section>
 <section>
 
 </section>
-<section class="grid grid-cols-1 md:grid-cols-5">
-  <img src="https://themewagon.github.io/appetizer/images/insta-1.jpg" alt=" " class="h-90 sm:w-full lg:h-80 bg-cover overflow-hidden">
-  <img src="	https://themewagon.github.io/appetizer/images/insta-2.jpg" alt=""  class="h-90 sm:w-full lg:h-80  bg-cover overflow-hidden">
-  <img src="https://themewagon.github.io/appetizer/images/insta-3.jpg" alt=""  class="h-90 sm:w-full lg:h-80  bg-cover overflow-hidden">
-  <img src="https://themewagon.github.io/appetizer/images/insta-4.jpg" alt=""  class="h-90 sm:w-full lg:h-80  bg-cover overflow-hidden">
-  <img src="https://themewagon.github.io/appetizer/images/insta-5.jpg" alt=""  class="h-90 sm:w-full lg:h-80  bg-cover overflow-hidden">
+
+<section class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-5">
+
+  <img
+    src="https://images.unsplash.com/photo-1513104890138-7c749659a591?auto=format&fit=crop&w=600&q=80"
+    alt="Fresh pizza"
+    class="h-80 w-full object-cover"
+  >
+
+  <img
+    src="https://images.unsplash.com/photo-1546069901-ba9599a7e63c?auto=format&fit=crop&w=600&q=80"
+    alt="Fresh salad"
+    class="h-80 w-full object-cover"
+  >
+
+  <img
+    src="https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?auto=format&fit=crop&w=600&q=80"
+    alt="Italian pizza"
+    class="h-80 w-full object-cover"
+  >
+
+  <img
+    src="https://images.unsplash.com/photo-1555939594-58d7cb561ad1?auto=format&fit=crop&w=600&q=80"
+    alt="Grilled food"
+    class="h-80 w-full object-cover"
+  >
+
+  <img
+    src="https://images.unsplash.com/photo-1490645935967-10de6ba17061?auto=format&fit=crop&w=600&q=80"
+    alt="Healthy food"
+    class="h-80 w-full object-cover"
+  >
+
 </section>
+
 <section class="flex grid grid-cols-1 lg:grid-cols-4 justify-evenly items-start gap-10  bg-black text-white justify-center text-center py-8 sm:px-29 md:py-20 px-5">
 <div class=" flex-col lg:flex justify-evenly gap-4 text-start">
 
@@ -762,16 +763,57 @@
     <img src="https://themewagon.github.io/appetizer/images/insta-6.jpg" alt="" class="lg:h-25 sm:w-25 h-40  bg-cover overflow-hidden">
   </div>
 </div>
-<!-- <script>
-  let btn = document.querySelector(".menu")
-  let ul= document.querySelector("#lo")
+<script>
+  let menuBtn = document.querySelector("#menuBtn");
+  let mobileMenu = document.querySelector("#mobileMenu");
 
-  btn.addEventListener('click',()=>{
-         ul.classList.toggle("hidden")
+  menuBtn.addEventListener("click", function () {
+    mobileMenu.classList.toggle("hidden");
+    mobileMenu.classList.toggle("flex");
+  });
+  
+let started = false;
 
-    ul.classList.toggle("flex")
+let observer = new IntersectionObserver((entries) => {
+  entries.forEach((entry) => {
+    if (entry.isIntersecting && !started) {
+      started = true;
 
-  }) -->
+      let numbers = [
+        { id: "count1", value: 18 },
+        { id: "count2", value: 15000 },
+        { id: "count3", value: 100 },
+        { id: "count4", value: 20 }
+      ];
+
+      numbers.forEach((item) => {
+        let count = 0;
+        let speed = 2000;
+        let increment = item.value / (speed / 20);
+        let element = document.getElementById(item.id);
+
+        let timer = setInterval(() => {
+          count += increment;
+
+          if (count >= item.value) {
+            count = item.value;
+            clearInterval(timer);
+          }
+
+          element.innerText = Math.floor(count).toLocaleString("en-US");
+        }, 20);
+      });
+
+      observer.disconnect();
+    }
+  });
+}, {
+  threshold: 0.3
+});
+
+observer.observe(document.querySelector("#count1").closest(".grid"));
+
 </script>
+
   </body>
 </html>
